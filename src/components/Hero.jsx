@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <main className="hero-section">
+    <main className="hero container">
       <div className="hero-content">
         <h1>YOUR FEET DESERVE THE BEST</h1>
         <p>
@@ -8,18 +8,20 @@ const Hero = () => {
           SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR
           SHOES
         </p>
-      </div>
-      <div className="hero-btn">
-        <button>Shop now</button>
-        <button>Category</button>
-      </div>
 
-      <div className="shopping">
-        <p>Also Available on </p>
-      </div>
-      <div className="shop-icon">
-        <img src="/images/flipkart.png" alt="flipkart" />
-        <img src="/images/amazon.png" alt="amazon" />
+        <div className="hero-btn">
+          <button>Shop now</button>
+          <button>Category</button>
+        </div>
+
+        <div className="shopping">
+          <p>Also Available on </p>
+
+          <div className="brands-icon">
+            <img src="/images/flipkart.png" alt="flipkart" />
+            <img src="/images/amazon.png" alt="amazon" />
+          </div>
+        </div>
       </div>
       <div className="hero-image">
         <img src="/images/shoe_image.png" alt="" />

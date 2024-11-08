@@ -118,6 +118,11 @@ body{
   font-style: italic;
 }
 
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 button{
   all: unset;
   padding: 6px 16px;
@@ -126,13 +131,13 @@ button{
   color: white;
   font-weight: 500;
   margin-top: 10px;
+  
 }
 
 nav{
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
-  margin: 0 auto;
+  align-items: center;
   height: 72px;
 }
 
@@ -140,4 +145,34 @@ nav ul{
   display: flex;
   list-style: none;
   gap: 24px;
+}
+
+.hero{
+  display: flex;
+  height: calc(100-72);
+align-items: center;
+}
+
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px
+}
+
+.hero h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+
+.hero p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
 }
