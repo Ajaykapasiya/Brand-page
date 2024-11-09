@@ -74,6 +74,7 @@ nav ul {
 }
 
 .secondry-btn {
+  
   background: transparent;
   color: var(--gray);
   border: 1px solid black;
@@ -88,7 +89,7 @@ nav ul {
 }
 
 .brands-icon {
-  margin-top: 6px;
+  margin-top: 16px;
   margin-left: 10px;
   display: flex;
   gap: 26px;
